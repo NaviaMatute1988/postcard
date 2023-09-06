@@ -10,15 +10,26 @@
   </head>
   <body>
     <div class="postcard">
-      <img
+      <im
+        g
         src="https://raw.githubusercontent.com/breatheco-de/exercise-postcard/main/.learn/assets/4geeks.png"
         alt="logo"
         style="float: right; width: 80px; height: 80px"
       />
 
       <h1>My Postcard</h1>
-
-      <input type="name" placeholder="Some Name" id="name" name="name" />
+      <form>
+        <input type="name" placeholder="Some Name" id="name" name="name" />
+        <br />
+        <input type="email" placeholder="Some Email" id="email" name="email" />
+        <br />
+        <input
+          type="comment"
+          placeholder="Some Comment"
+          id="comment"
+          name="comment"
+        />
+      </form>
       <p>
         look how awesome! This is a <br />
         postcard that i crated using <br />
@@ -29,6 +40,11 @@
         This is so cool, can't wait to <br />
         start doing more stuff!
       </p>
+      <div class="container">
+        <div class="center">
+          <button>Send My Postcard</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>

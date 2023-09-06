@@ -18,6 +18,7 @@ p {
   width: 600px;
   margin: auto;
   margin-top: 80px;
+
   background-color: white;
   text-align: justify;
 }
@@ -25,4 +26,20 @@ p {
 input {
   float: right;
   display: flex;
+}
+form {
+  float: right;
+}
+button {
+  background-color: rgb(231, 198, 243);
+  font-family: sans-serif;
+  font-size: large;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
